@@ -20,7 +20,7 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
-header {
+/* header {
   background-color: var(--primary-color);
   color: var(--highlight-color);
   padding: 16px;
@@ -35,9 +35,9 @@ header img {
   width: auto;
   display: block;
   margin: 0 auto;
-}
+} */
 
-*/ body {
+body {
   font-family: var(--body-font);
   color: var(--accent1-color);
 }
