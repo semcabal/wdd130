@@ -18,6 +18,10 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
+header nav a:hover {
+    color: var(--accent2-color);
+}
+
 header {
     background-color: #ffffff;
     border-bottom: 1px solid #e5e5e5;
@@ -35,10 +39,14 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -76,12 +84,13 @@ h1 {
 }
 
 .hero article img {
+    float: right;
     width: 120px;
     height: auto;
+    margin-left: 16px;
 }
 
 .hero article {
-    flex-direction: row-reverse;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -89,8 +98,7 @@ h1 {
     width: 90%;
     padding: 20px;
     background-color: rgb(11 94 215 / 70%);
-    display: flex;
-    align-items: center;
+    color: #fff;
 }
 
 .hero article p {
