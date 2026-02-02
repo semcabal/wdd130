@@ -105,9 +105,6 @@ header nav a:hover {
     width: 120px;
     height: auto;
     float: right;
-    margin-left: 16px;
-    margin-right: 0;
-    margin-bottom: 0;
     margin-left: auto;
     display: block;
 }
