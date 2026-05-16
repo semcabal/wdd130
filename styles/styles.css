@@ -18,8 +18,22 @@ aside img {
 }
 
 main img {
-    width: 300px;
+    width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border-radius: 6px;
+}
+}
+
+h1 {
+    color: steelblue;
+    padding: 1rem;
+    /* bajé de 5rem a 1rem */
+    font-size: 1.8rem;
 }
 
 p {
@@ -27,7 +41,7 @@ p {
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-bottom: 1px solid #000;
     text-align: center;
 }
